@@ -453,7 +453,7 @@ function AboutSection() {
           NayePankh Foundation is a non-governmental organisation driven by the belief that small actions create transformative change. We operate in Kanpur, Ghaziabad, and beyond doing everything in our power to uplift India's most vulnerable communities.
         </p>
         <p className="section-body" style={{ marginBottom: 32 }}>
-          Registered with the UP Government and recognised under 80G and 12A, your support is both meaningful and tax-exempt. What began as a small student initiative has today grown into one of India's biggest student-led NGOs — running drives across food, education, women's hygiene, and clothing.
+          Registered with the UP Government and recognised under 80G and 12A, your support is both meaningful and tax-exempt. What began as a small student initiative has today grown into one of India's biggest student-led NGOs, running drives across food, education, women's hygiene, and clothing.
         </p>
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
           <button className="np-btn np-btn-gold np-btn-lg" onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>
