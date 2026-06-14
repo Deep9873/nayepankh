@@ -471,11 +471,11 @@ function AboutSection() {
 /* ── Causes ────────────────────────────────────────────── */
 function CausesSection() {
   const causes = [
-    { n: "01", Icon: Utensils, iconBg: "#FEF9EC", iconColor: "#92400E", title: "Food Security",    desc: "We run regular food distribution drives ensuring no one goes to bed hungry, from city streets to rural outskirts.", tag: "Active in 12+ cities" },
-    { n: "02", Icon: BookOpen, iconBg: "#F0F0FE", iconColor: "#4338CA", title: "Free Education",   desc: "Free tuition sessions, stationery kits, and mentorship programs that give children a real shot at a better future.", tag: "1,000+ children reached" },
-    { n: "03", Icon: Heart,    iconBg: "#ECFDF5", iconColor: "#065F46", title: "Women's Hygiene",  desc: "Breaking the taboo around menstrual health by distributing free sanitary pads and conducting awareness drives.", tag: "Partnered with local NGOs" },
-    { n: "04", Icon: Shirt,    iconBg: "#FFF5F5", iconColor: "#9B1C1C", title: "Clothing Drives",  desc: "Collecting and distributing warm clothing across communities because dignity is a basic right.", tag: "50,000+ items donated" },
-    { n: "05", Icon: Sprout,   iconBg: "#F0FDF4", iconColor: "#166534", title: "Community Growth", desc: "Skill workshops, career guidance, and mental health awareness for holistic and lasting development.", tag: "Ongoing initiative" },
+    { n: "01", Icon: Utensils, iconBg: "rgb(232 160 32)", iconColor: "#92400E", title: "Food Security",    desc: "We run regular food distribution drives ensuring no one goes to bed hungry, from city streets to rural outskirts.", tag: "Active in 12+ cities" },
+    { n: "02", Icon: BookOpen, iconBg: "rgb(232 160 32)", iconColor: "#4338CA", title: "Free Education",   desc: "Free tuition sessions, stationery kits, and mentorship programs that give children a real shot at a better future.", tag: "1,000+ children reached" },
+    { n: "03", Icon: Heart,    iconBg: "rgb(232 160 32)", iconColor: "#065F46", title: "Women's Hygiene",  desc: "Breaking the taboo around menstrual health by distributing free sanitary pads and conducting awareness drives.", tag: "Partnered with local NGOs" },
+    { n: "04", Icon: Shirt,    iconBg: "rgb(232 160 32)", iconColor: "#9B1C1C", title: "Clothing Drives",  desc: "Collecting and distributing warm clothing across communities because dignity is a basic right.", tag: "50,000+ items donated" },
+    { n: "05", Icon: Sprout,   iconBg: "rgb(232 160 32)", iconColor: "#166534", title: "Community Growth", desc: "Skill workshops, career guidance, and mental health awareness for holistic and lasting development.", tag: "Ongoing initiative" },
   ];
   return (
     <section className="causes-section" id="causes">
