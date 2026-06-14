@@ -757,6 +757,18 @@ export default function NayePankhFoundation() {
     document.head.appendChild(s);
     return () => document.head.removeChild(s);
   }, []);
+  useEffect(() => {
+    const existing = document.querySelector("link[rel~='icon']");
+    if (existing) existing.remove();
+    const link = document.createElement("link");
+    link.rel = "icon";
+    link.type = "image/png";
+    link.href = "/logo.png";
+    document.head.appendChild(link);
+    // Also set page title
+    document.title = "NayePankh Foundation - UP Gov Registered Student led NGO";
+  }, []);
+
   return (
     <>
       <Navbar />
